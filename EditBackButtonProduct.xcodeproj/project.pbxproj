@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28F3A8B2506B79C00296E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3A8A2506B79C00296E2A /* AppDelegate.swift */; };
+		A28F3A8D2506B79C00296E2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3A8C2506B79C00296E2A /* SceneDelegate.swift */; };
+		A28F3A8F2506B79C00296E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3A8E2506B79C00296E2A /* ViewController.swift */; };
+		A28F3A922506B79C00296E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28F3A902506B79C00296E2A /* Main.storyboard */; };
+		A28F3A952506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A28F3A932506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld */; };
+		A28F3A972506B79D00296E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28F3A962506B79D00296E2A /* Assets.xcassets */; };
+		A28F3A9A2506B79D00296E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28F3A982506B79D00296E2A /* LaunchScreen.storyboard */; };
+		A28F3AA52506B79D00296E2A /* EditBackButtonProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3AA42506B79D00296E2A /* EditBackButtonProductTests.swift */; };
+		A28F3AB02506B79D00296E2A /* EditBackButtonProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3AAF2506B79D00296E2A /* EditBackButtonProductUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28F3AA12506B79D00296E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28F3A7F2506B79C00296E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28F3A862506B79C00296E2A;
+			remoteInfo = EditBackButtonProduct;
+		};
+		A28F3AAC2506B79D00296E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28F3A7F2506B79C00296E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28F3A862506B79C00296E2A;
+			remoteInfo = EditBackButtonProduct;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28F3A872506B79C00296E2A /* EditBackButtonProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditBackButtonProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28F3A8A2506B79C00296E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A28F3A8C2506B79C00296E2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A28F3A8E2506B79C00296E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A28F3A912506B79C00296E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28F3A942506B79C00296E2A /* EditBackButtonProduct.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EditBackButtonProduct.xcdatamodel; sourceTree = "<group>"; };
+		A28F3A962506B79D00296E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A28F3A992506B79D00296E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A28F3A9B2506B79D00296E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28F3AA02506B79D00296E2A /* EditBackButtonProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditBackButtonProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28F3AA42506B79D00296E2A /* EditBackButtonProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBackButtonProductTests.swift; sourceTree = "<group>"; };
+		A28F3AA62506B79D00296E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28F3AAB2506B79D00296E2A /* EditBackButtonProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditBackButtonProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28F3AAF2506B79D00296E2A /* EditBackButtonProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBackButtonProductUITests.swift; sourceTree = "<group>"; };
+		A28F3AB12506B79D00296E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28F3A842506B79C00296E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3A9D2506B79D00296E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3AA82506B79D00296E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28F3A7E2506B79C00296E2A = {
+			isa = PBXGroup;
+			children = (
+				A28F3A892506B79C00296E2A /* EditBackButtonProduct */,
+				A28F3AA32506B79D00296E2A /* EditBackButtonProductTests */,
+				A28F3AAE2506B79D00296E2A /* EditBackButtonProductUITests */,
+				A28F3A882506B79C00296E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28F3A882506B79C00296E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28F3A872506B79C00296E2A /* EditBackButtonProduct.app */,
+				A28F3AA02506B79D00296E2A /* EditBackButtonProductTests.xctest */,
+				A28F3AAB2506B79D00296E2A /* EditBackButtonProductUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28F3A892506B79C00296E2A /* EditBackButtonProduct */ = {
+			isa = PBXGroup;
+			children = (
+				A28F3A8A2506B79C00296E2A /* AppDelegate.swift */,
+				A28F3A8C2506B79C00296E2A /* SceneDelegate.swift */,
+				A28F3A8E2506B79C00296E2A /* ViewController.swift */,
+				A28F3A902506B79C00296E2A /* Main.storyboard */,
+				A28F3A962506B79D00296E2A /* Assets.xcassets */,
+				A28F3A982506B79D00296E2A /* LaunchScreen.storyboard */,
+				A28F3A9B2506B79D00296E2A /* Info.plist */,
+				A28F3A932506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld */,
+			);
+			path = EditBackButtonProduct;
+			sourceTree = "<group>";
+		};
+		A28F3AA32506B79D00296E2A /* EditBackButtonProductTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28F3AA42506B79D00296E2A /* EditBackButtonProductTests.swift */,
+				A28F3AA62506B79D00296E2A /* Info.plist */,
+			);
+			path = EditBackButtonProductTests;
+			sourceTree = "<group>";
+		};
+		A28F3AAE2506B79D00296E2A /* EditBackButtonProductUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A28F3AAF2506B79D00296E2A /* EditBackButtonProductUITests.swift */,
+				A28F3AB12506B79D00296E2A /* Info.plist */,
+			);
+			path = EditBackButtonProductUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28F3A862506B79C00296E2A /* EditBackButtonProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28F3AB42506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProduct" */;
+			buildPhases = (
+				A28F3A832506B79C00296E2A /* Sources */,
+				A28F3A842506B79C00296E2A /* Frameworks */,
+				A28F3A852506B79C00296E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditBackButtonProduct;
+			productName = EditBackButtonProduct;
+			productReference = A28F3A872506B79C00296E2A /* EditBackButtonProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28F3A9F2506B79D00296E2A /* EditBackButtonProductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28F3AB72506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProductTests" */;
+			buildPhases = (
+				A28F3A9C2506B79D00296E2A /* Sources */,
+				A28F3A9D2506B79D00296E2A /* Frameworks */,
+				A28F3A9E2506B79D00296E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28F3AA22506B79D00296E2A /* PBXTargetDependency */,
+			);
+			name = EditBackButtonProductTests;
+			productName = EditBackButtonProductTests;
+			productReference = A28F3AA02506B79D00296E2A /* EditBackButtonProductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A28F3AAA2506B79D00296E2A /* EditBackButtonProductUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28F3ABA2506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProductUITests" */;
+			buildPhases = (
+				A28F3AA72506B79D00296E2A /* Sources */,
+				A28F3AA82506B79D00296E2A /* Frameworks */,
+				A28F3AA92506B79D00296E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28F3AAD2506B79D00296E2A /* PBXTargetDependency */,
+			);
+			name = EditBackButtonProductUITests;
+			productName = EditBackButtonProductUITests;
+			productReference = A28F3AAB2506B79D00296E2A /* EditBackButtonProductUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28F3A7F2506B79C00296E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = ShuNakamura;
+				TargetAttributes = {
+					A28F3A862506B79C00296E2A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A28F3A9F2506B79D00296E2A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A28F3A862506B79C00296E2A;
+					};
+					A28F3AAA2506B79D00296E2A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A28F3A862506B79C00296E2A;
+					};
+				};
+			};
+			buildConfigurationList = A28F3A822506B79C00296E2A /* Build configuration list for PBXProject "EditBackButtonProduct" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28F3A7E2506B79C00296E2A;
+			productRefGroup = A28F3A882506B79C00296E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28F3A862506B79C00296E2A /* EditBackButtonProduct */,
+				A28F3A9F2506B79D00296E2A /* EditBackButtonProductTests */,
+				A28F3AAA2506B79D00296E2A /* EditBackButtonProductUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28F3A852506B79C00296E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F3A9A2506B79D00296E2A /* LaunchScreen.storyboard in Resources */,
+				A28F3A972506B79D00296E2A /* Assets.xcassets in Resources */,
+				A28F3A922506B79C00296E2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3A9E2506B79D00296E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3AA92506B79D00296E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28F3A832506B79C00296E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F3A8F2506B79C00296E2A /* ViewController.swift in Sources */,
+				A28F3A8B2506B79C00296E2A /* AppDelegate.swift in Sources */,
+				A28F3A952506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld in Sources */,
+				A28F3A8D2506B79C00296E2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3A9C2506B79D00296E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F3AA52506B79D00296E2A /* EditBackButtonProductTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F3AA72506B79D00296E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F3AB02506B79D00296E2A /* EditBackButtonProductUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28F3AA22506B79D00296E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28F3A862506B79C00296E2A /* EditBackButtonProduct */;
+			targetProxy = A28F3AA12506B79D00296E2A /* PBXContainerItemProxy */;
+		};
+		A28F3AAD2506B79D00296E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28F3A862506B79C00296E2A /* EditBackButtonProduct */;
+			targetProxy = A28F3AAC2506B79D00296E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28F3A902506B79C00296E2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28F3A912506B79C00296E2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28F3A982506B79D00296E2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28F3A992506B79D00296E2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28F3AB22506B79D00296E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A28F3AB32506B79D00296E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28F3AB52506B79D00296E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProduct/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A28F3AB62506B79D00296E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProduct/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A28F3AB82506B79D00296E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProductTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditBackButtonProduct.app/EditBackButtonProduct";
+			};
+			name = Debug;
+		};
+		A28F3AB92506B79D00296E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProductTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EditBackButtonProduct.app/EditBackButtonProduct";
+			};
+			name = Release;
+		};
+		A28F3ABB2506B79D00296E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EditBackButtonProduct;
+			};
+			name = Debug;
+		};
+		A28F3ABC2506B79D00296E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7W8Z93KGM;
+				INFOPLIST_FILE = EditBackButtonProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApplicationTukuru.EditBackButtonProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EditBackButtonProduct;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28F3A822506B79C00296E2A /* Build configuration list for PBXProject "EditBackButtonProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F3AB22506B79D00296E2A /* Debug */,
+				A28F3AB32506B79D00296E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28F3AB42506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F3AB52506B79D00296E2A /* Debug */,
+				A28F3AB62506B79D00296E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28F3AB72506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F3AB82506B79D00296E2A /* Debug */,
+				A28F3AB92506B79D00296E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28F3ABA2506B79D00296E2A /* Build configuration list for PBXNativeTarget "EditBackButtonProductUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F3ABB2506B79D00296E2A /* Debug */,
+				A28F3ABC2506B79D00296E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A28F3A932506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A28F3A942506B79C00296E2A /* EditBackButtonProduct.xcdatamodel */,
+			);
+			currentVersion = A28F3A942506B79C00296E2A /* EditBackButtonProduct.xcdatamodel */;
+			path = EditBackButtonProduct.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A28F3A7F2506B79C00296E2A /* Project object */;
+}
