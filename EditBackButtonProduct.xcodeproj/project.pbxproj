@@ -16,6 +16,8 @@
 		A28F3A9A2506B79D00296E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28F3A982506B79D00296E2A /* LaunchScreen.storyboard */; };
 		A28F3AA52506B79D00296E2A /* EditBackButtonProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3AA42506B79D00296E2A /* EditBackButtonProductTests.swift */; };
 		A28F3AB02506B79D00296E2A /* EditBackButtonProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3AAF2506B79D00296E2A /* EditBackButtonProductUITests.swift */; };
+		A28F3ABE2506BD4400296E2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3ABD2506BD4400296E2A /* HomeViewController.swift */; };
+		A28F3AC02506BE8200296E2A /* EditBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F3ABF2506BE8200296E2A /* EditBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A28F3AAB2506B79D00296E2A /* EditBackButtonProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditBackButtonProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F3AAF2506B79D00296E2A /* EditBackButtonProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBackButtonProductUITests.swift; sourceTree = "<group>"; };
 		A28F3AB12506B79D00296E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28F3ABD2506BD4400296E2A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A28F3ABF2506BE8200296E2A /* EditBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				A28F3A8C2506B79C00296E2A /* SceneDelegate.swift */,
 				A28F3A8E2506B79C00296E2A /* ViewController.swift */,
 				A28F3A902506B79C00296E2A /* Main.storyboard */,
+				A28F3ABD2506BD4400296E2A /* HomeViewController.swift */,
+				A28F3ABF2506BE8200296E2A /* EditBackViewController.swift */,
 				A28F3A962506B79D00296E2A /* Assets.xcassets */,
 				A28F3A982506B79D00296E2A /* LaunchScreen.storyboard */,
 				A28F3A9B2506B79D00296E2A /* Info.plist */,
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28F3ABE2506BD4400296E2A /* HomeViewController.swift in Sources */,
 				A28F3A8F2506B79C00296E2A /* ViewController.swift in Sources */,
 				A28F3A8B2506B79C00296E2A /* AppDelegate.swift in Sources */,
 				A28F3A952506B79C00296E2A /* EditBackButtonProduct.xcdatamodeld in Sources */,
 				A28F3A8D2506B79C00296E2A /* SceneDelegate.swift in Sources */,
+				A28F3AC02506BE8200296E2A /* EditBackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

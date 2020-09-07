@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f1X-Na-Brd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="EditBackButtonProduct" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KeC-zW-SqV">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaT-6z-jxh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <state key="normal" title="遷移前（現在VC）にてBackボタン名を変更"/>
+                                        <connections>
+                                            <segue destination="dnW-kT-K41" kind="show" identifier="BasicStyle" id="d0k-kl-C89"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueW-nz-CVW">
+                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <state key="normal" title="遷移後VCにてBackボタン名を変更"/>
+                                        <connections>
+                                            <segue destination="Vcz-dB-3vg" kind="show" id="ZXP-n5-fP2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZV-gH-WZL">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <state key="normal" title="他画面への影響調査用"/>
+                                        <connections>
+                                            <segue destination="WgA-km-9bQ" kind="show" id="BFl-qx-py0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zaT-6z-jxh" firstAttribute="height" secondItem="AZV-gH-WZL" secondAttribute="height" id="PpW-cq-x4N"/>
+                                    <constraint firstItem="zaT-6z-jxh" firstAttribute="height" secondItem="ueW-nz-CVW" secondAttribute="height" id="aFh-7w-ysu"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KeC-zW-SqV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4cR-6a-ebb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KeC-zW-SqV" secondAttribute="trailing" id="5Hv-FC-4ES"/>
+                            <constraint firstItem="KeC-zW-SqV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fP6-Un-8uJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KeC-zW-SqV" secondAttribute="bottom" id="oyU-sR-dIt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NOp-Fl-9KS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-4528" y="44"/>
+        </scene>
+        <!--遷移前VCにて設定-->
+        <scene sceneID="dlx-Ud-hNa">
+            <objects>
+                <viewController id="dnW-kT-K41" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cJJ-hG-psx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2FP-ck-IRu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="遷移前VCにて設定" id="0c7-Dw-8fK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3H-8G-tjT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3641" y="-662"/>
+        </scene>
+        <!--遷移後VCにて設定-->
+        <scene sceneID="oDa-33-VIq">
+            <objects>
+                <viewController id="Vcz-dB-3vg" customClass="EditBackViewController" customModule="EditBackButtonProduct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VFZ-LK-7op">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Lme-wB-dL8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="遷移後VCにて設定" id="eT5-Qc-TvN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UmY-yj-7oe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3641" y="44"/>
+        </scene>
+        <!--影響調査画面-->
+        <scene sceneID="c5D-0p-ToI">
+            <objects>
+                <viewController id="WgA-km-9bQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wco-Jc-lwc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0g1-Oz-gS1"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="影響調査画面" id="0IX-eR-BrS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WDg-E5-RdL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3641" y="786"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ehy-ot-UiV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f1X-Na-Brd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1B-g5-gGT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="C6r-8b-v2e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29b-UQ-i8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5452" y="44"/>
         </scene>
     </scenes>
 </document>
